@@ -17,7 +17,7 @@ export default function App() {
 
   return (
     <div className={`app ${moods[mood].className}`}>
-      <h1 className="title">MoodMorph 🌀</h1>
+      <h1 className="title">MoodMorph</h1>
 
       <select onChange={(e) => setMood(e.target.value)} value={mood}>
         {Object.keys(moods).map((m) => (
